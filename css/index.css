@@ -1,0 +1,13 @@
+body{
+    height: 98vh;
+    background-color: rgba(255, 232, 232, 0.159)!important;
+}
+
+.img__nav{
+    max-width: 10vh;
+    max-height: auto;
+}
+
+.a__nav{
+    font-size: 1.2em;
+}
