@@ -3,21 +3,30 @@ body{
 }
 
 .img__nav{
-    width: 6vw;
+    width: 8rem;
     height: auto;
 }
 
 .a__nav{
-    font-size: 1em;
+    font-size: 1.1em;
+}
+
+.nav__items{
+    flex-grow: 0!important;
 }
 
 .portrait{
-    width: 90vw!important;
     margin-top: 15vh;
 }
 
 @media screen and (max-width: 768px){
     .portrait{
         max-width: 95vw;
+    }
+}
+
+@media screen and (max-width: 991px){
+    .img__nav{
+        width: 6rem;
     }
 }
