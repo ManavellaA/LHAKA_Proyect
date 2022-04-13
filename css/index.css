@@ -11,10 +11,6 @@ body{
     font-size: 1.1em;
 }
 
-.nav__items{
-    flex-grow: 0!important;
-}
-
 .portrait{
     margin-top: 15vh;
 }
