@@ -1,13 +1,32 @@
 body{
-    height: 98vh;
     background-color: rgba(255, 232, 232, 0.159)!important;
 }
 
 .img__nav{
-    max-width: 12vh;
-    max-height: auto;
+    width: 8rem;
+    height: auto;
 }
 
 .a__nav{
-    font-size: 1em;
+    font-size: 1.1em;
+}
+
+.nav__items{
+    flex-grow: 0!important;
+}
+
+.portrait{
+    margin-top: 15vh;
+}
+
+@media screen and (max-width: 768px){
+    .portrait{
+        max-width: 95vw;
+    }
+}
+
+@media screen and (max-width: 991px){
+    .img__nav{
+        width: 6rem;
+    }
 }
