@@ -11,3 +11,21 @@ body{
 .a__nav{
     font-size: 1em;
 }
+
+/* .img__aboutme{
+    max-height: 85vh;
+} */
+
+.portrait{
+    max-width: 80vw;
+    max-height: 80vh!important;
+}
+
+@media screen and (max-width: 768px){
+    .portrait{
+        max-width: 95vw;
+    }
+    .history{
+        min-height: 90vh;
+    }
+}
