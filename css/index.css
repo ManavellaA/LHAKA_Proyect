@@ -1,5 +1,6 @@
 body{
     background-color: rgba(255, 232, 232, 0.159)!important;
+    margin: 0 0 0 0;
 }
 
 .img__nav{
@@ -9,16 +10,6 @@ body{
 
 .a__nav{
     font-size: 1.1em;
-}
-
-.portrait{
-    margin-top: 15vh;
-}
-
-@media screen and (max-width: 768px){
-    .portrait{
-        max-width: 95vw;
-    }
 }
 
 @media screen and (max-width: 991px){
