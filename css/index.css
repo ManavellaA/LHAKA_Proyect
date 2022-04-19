@@ -1,5 +1,5 @@
 body{
-    background-color: rgba(255, 232, 232, 0.159)!important;
+    background-color: rgba(218, 215, 206, 0.176)!important;
     margin: 0 0 0 0;
 }
 
@@ -19,12 +19,17 @@ body{
     overflow: hidden;
 }
 
+.vista3{
+    margin: 10vh 0 10vh 0;
+}
+
 @media screen and (max-width: 991px){
+    .nav-link{
+        background-color: rgba(0, 0, 0, 0.453);
+        color: white!important;
+    }
+
     .img__nav{
         width: 6rem;
     }
-}
-
-@media screen and (max-width: 768px){
-
 }
