@@ -23,6 +23,171 @@ body{
     margin: 10vh 0 10vh 0;
 }
 
+/* Sección PRODUCTOS */
+section.section-prod .prod-mt {
+    margin-top: 10px;
+}
+
+section.section-prod h3.section-prod__title {
+    font-weight: 800;
+    font-size: 29px;
+    line-height: 44px;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+section.section-prod div.section-prod__img1 {
+    background-image: url(/assets/img/prueba.png);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+
+section.section-prod div.section-prod__img2 {
+    background-image: url(/assets/img/prueba.png);
+    background-size: cover;
+    background-position: center;
+    height: 145px;
+}
+
+section.section-prod div.section-prod__img3 {
+    background-image: url(/assets/img/prueba-2.png);
+    background-size: cover;
+    background-position: center;
+    height: 145px;
+}
+
+section.section-prod div.section-prod__img4 {
+    background-image: url(/assets/img/prueba.png);
+    background-size: cover;
+    background-position: center;
+    height: 155px;
+}
+
+section.section-prod div.section-prod__img5 {
+    background-image: url(/assets/img/prueba.png);
+    background-size: cover;
+    background-position: center;
+    height: 187px;
+}
+
+section.section-prod div.section-prod__img6 {
+    background-image: url(/assets/img/prueba-2.png);
+    background-size: cover;
+    background-position: center;
+    height: 187px;
+}
+
+section.section-prod div.section-prod__img7 {
+    background-image: url(/assets/img/prueba-2.png);
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+}
+
+section.section-prod div.section-prod__img8 {
+    background-image: url(/assets/img/prueba.png);
+    background-size: cover;
+    height: 250px;
+}
+
+section.section-prod div.section-prod__img9 {
+    background-image: url(/assets/img/prueba-2.png);
+    background-size: cover;
+    background-position: center;
+    height: 140px;
+}
+
+section.section-prod div.section-prod__img10 {
+    background-image: url(/assets/img/prueba-2.png);
+    background-size: cover;
+    background-position: center;
+    height: 140px;
+}
+
+section.section-prod div.section-prod__img11 {
+    background-image: url(/assets/img/prueba-2.png);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+
+/* Sección Cliente y Contacto */
+section.section-cliecon div.section-clie {
+    height: 200px;
+    background: #000000;
+}
+
+section.section-cliecon h3.section-clie__title {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 44px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+section.section-cliecon div.section-clie__overflow {
+    overflow: auto;
+}
+
+section.section-cliecon div.section-con {
+    height: 350px;
+    background-image: url(/assets/img/base-con.png);
+}
+
+section.section-cliecon div.section-con__overlay {
+    background: rgba(255, 255, 255, 0.47);
+    height: 300px;
+}
+
+section.section-cliecon h3.section-con__title {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+
+section.section-cliecon p.section-con__p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    padding: 0 50px;
+}
+
+section.section-cliecon a.section-con__redes {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 19px;
+    color: #000000;
+    text-decoration: none;
+}
+
+section.section-cliecon span.section-con__ico {
+    background-size: contain;
+    height: 16px;
+    width: 16px;
+    margin-right: 5px;
+    background-repeat: no-repeat;
+    transition: all .2s ease-in-out;
+}
+
+section.section-cliecon span.section-con__ico--insta {
+    background-image: url(/assets/img/instagram.png);
+}
+
+section.section-cliecon span.section-con__ico--correo {
+    background-image: url(/assets/img/correo.png);
+}
+
+section.section-cliecon span.section-con__ico--whatsapp {
+    background-image: url(/assets/img/whatsapp.png);
+}
+
+section.section-cliecon span.section-con__ico--celular {
+    background-image: url(/assets/img/celular.png);
+}
+
 @media screen and (max-width: 991px){
     .nav-link{
         background-color: rgba(0, 0, 0, 0.453);
@@ -31,5 +196,74 @@ body{
 
     .img__nav{
         width: 6rem;
+    }
+}
+
+@media only screen and (min-width: 375px) {
+    section.section-cliecon h3.section-clie__title {
+        font-size: 34px;
+    }
+
+    section.section-prod h3.section-prod__title {
+        font-size: 34px;
+    }
+
+    section.section-cliecon a.section-con__redes {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    section.section-cliecon span.section-con__ico {
+        height: 24px;
+        width: 24px;
+        margin-right: 15px;
+    }
+
+    section.section-cliecon p.section-con__p {
+       padding: 0 100px;
+    }
+}
+
+
+@media only screen and (min-width: 1023px) {
+
+    /* Sección Productos */
+    section.section-prod div.section-prod__img1 {
+        height: 600px;
+    }
+
+    section.section-prod div.section-prod__img2,
+    section.section-prod div.section-prod__img3,
+    section.section-prod div.section-prod__img4 {
+        height: 295px;
+    }
+
+    section.section-prod div.section-prod__img5,
+    section.section-prod div.section-prod__img6,
+    section.section-prod div.section-prod__img9,
+    section.section-prod div.section-prod__img10 {
+        height: 395px;
+    }
+
+    section.section-prod div.section-prod__img7 {
+        height: 700px;
+    }
+
+    section.section-prod div.section-prod__img8 {
+        height: 355px;
+    }
+
+    section.section-prod div.section-prod__img11 {
+        height: 760px;
+    }
+
+    /* Sección Clientes y Contacto */
+    section.section-cliecon div.section-clie {
+        height: 300px;
+    }
+
+    section.section-cliecon div.section-con {
+        height: 450px;
     }
 }
