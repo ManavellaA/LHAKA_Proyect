@@ -6,4 +6,6 @@ if(window.innerHeight > 780){
     document.querySelector('.view-div1').style.height = imgHeight + 'px';
     document.querySelector('.view-div2').style.height = imgHeight + 'px';
     document.querySelector('.view-div3').style.height = imgHeight + 'px';
+    document.querySelector('.view-div4').style.height = imgHeight + 'px';
+    document.querySelector('.view-div5').style.height = imgHeight + 'px';
 }
