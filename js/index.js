@@ -1,12 +1,21 @@
-if(window.innerWidth <= 779){
-    
+function autosize(muliplier) {
     let imgHeight = document.querySelector('.view-img').offsetWidth;
     
-    imgHeight = imgHeight * 0.6; 
-    
-    document.querySelector(".height-js1").style.height = imgHeight + 'px';
-    document.querySelector(".height-js2").style.height = imgHeight + 'px';
-    document.querySelector(".height-js3").style.height = imgHeight + 'px';
-    document.querySelector(".height-js4").style.height = imgHeight + 'px';
-    document.querySelector(".height-js5").style.height = imgHeight + 'px';
+    imgHeight = imgHeight * muliplier; 
+
+    for(let i = 1; i <= 5; i++) {
+        document.querySelector(`.height-js${i}`).style.height = imgHeight + 'px';    
+    }
 }
+
+if(window.innerWidth <= 332){
+    autosize(2.5);
+}else if(window.innerWidth <= 437){
+    autosize(1.8);
+ }else if(window.innerWidth <= 472){
+     autosize(1.5);
+  }else if(window.innerWidth <= 557){
+     autosize(1.1);  
+   }else if(window.innerWidth <= 779){
+      autosize(0.85);
+    }
