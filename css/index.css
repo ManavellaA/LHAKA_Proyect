@@ -5,9 +5,10 @@ body{
 
 /*----------------NAV----------------*/
 
-/* .as{
-    background-color: rgba(134, 125, 99, 0.603)!important;
-} */
+.bg__scroll{
+    background-color: rgba(255, 255, 246, 0.323)!important;
+    min-height: 5vh!important;
+}
 
 .img__nav{
     width: 9rem;

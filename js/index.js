@@ -1,7 +1,21 @@
-// function autosize(muliplier) {
+$(document).ready(function(){
+    var $nav = $('.navbar');
+    var previousScroll = 0;
+    $(window).scroll(function(event){
+       var scroll = $(this).scrollTop();
+       if (scroll > previousScroll && scroll > 200){
+           $nav.addClass('bg__scroll');
+       } else {
+           $nav.removeClass('bg__scroll');
+       }
+       previousScroll = scroll;    
+    });
+ 
+});
+// function autosize(multiplier) {
 //     let imgHeight = document.querySelector('.view-img').offsetWidth;
     
-//     imgHeight = imgHeight * muliplier; 
+//     imgHeight = imgHeight * multiplier; 
 
 //     for(let i = 1; i <= 5; i++) {
 //         document.querySelector(`.height-js${i}`).style.height = imgHeight + 'px';    
