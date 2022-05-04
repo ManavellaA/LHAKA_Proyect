@@ -1,16 +1,17 @@
 $(document).ready(function(){
-    var $nav = $('.navbar');
-    var previousScroll = 0;
+    let $nav = $('.navbar');
     $(window).scroll(function(event){
-       var scroll = $(this).scrollTop();
-       if (scroll > previousScroll && scroll > 200){
+       let scroll = $(this).scrollTop();
+       if (scroll > 200){
            $nav.addClass('bg__scroll');
        } else {
            $nav.removeClass('bg__scroll');
        }
-       previousScroll = scroll;    
+       scroll = 0;    
     });
  
+    $('body').height();
+
 });
 // function autosize(multiplier) {
 //     let imgHeight = document.querySelector('.view-img').offsetWidth;
