@@ -58,7 +58,7 @@ section.section-prod div.section-prod__img3 {
 }
 
 section.section-prod div.section-prod__img4 {
-    background-image: url(/assets/img/img-4.jpg);
+    background-image: url(../assets/img/img-4.jpg);
     background-size: cover;
     background-position: center;
     height: 155px;
