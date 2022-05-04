@@ -1,6 +1,7 @@
 body{
     background-color: rgba(218, 215, 206, 0.176)!important;
     margin: 0 0 0 0;
+    height: 100%;
 }
 
 /*----------------NAV----------------*/
@@ -77,6 +78,12 @@ body{
     .p_text{
         font-size: 0.7em;
     }
+}
+
+@media screen and (max-width: 600px){
+.aboutme__img{
+    height: 100%;
+}
 }
 
 /*----------------------------------------*/
