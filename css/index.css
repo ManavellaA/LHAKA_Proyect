@@ -1,28 +1,85 @@
-body {
-    background-color: rgba(218, 215, 206, 0.176) !important;
+body{
+    background-color: rgba(218, 215, 206, 0.176)!important;
     margin: 0 0 0 0;
 }
 
-.img__nav {
-    width: 8rem;
+/*----------------NAV----------------*/
+
+.bg__scroll{
+    background-color: rgba(255, 255, 246, 0.323)!important;
+    min-height: 5vh!important;
+}
+
+.img__nav{
+    width: 9rem;
     height: auto;
 }
 
-.a__nav {
+.a__nav{
     font-size: 1.1em;
 }
 
-.aboutme__img {
+/*-----------------------------------*/
+
+/*----------------ABOUT ME----------------*/
+
+.aboutme__img{
     height: 100vh;
     width: 100%;
     object-fit: cover;
     overflow: hidden;
 }
 
-.vista3 {
+.p_text{
+    font-size: 0.8em;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.607);
+}
+
+.view_3{
+    margin: 10vh 0 0 0;
+}
+
+.view_4{
     margin: 10vh 0 10vh 0;
 }
 
+@media screen and (max-width: 1280px){
+    @media screen and (max-height: 750px){
+        .style_rezize_2{
+            margin: 7rem 0 0 0!important;
+        }
+    }
+
+    .style_rezize{
+        margin: 5rem 0 5rem 0;
+    }
+
+    h4{
+        font-size: 1.2em!important;
+    }
+
+    .p_text{
+        font-size: 0.7em;
+    }
+}
+
+@media screen and (max-width: 991px){
+    .nav-link{
+        background-color: rgba(0, 0, 0, 0.453);
+        color: white!important;
+    }
+
+    .img__nav{
+        width: 6rem;
+    }
+
+    .p_text{
+        font-size: 0.7em;
+    }
+}
+
+/*----------------------------------------*/
 /* Sección PRODUCTOS */
 section.section-prod .prod-mt {
     margin-top: 10px;
