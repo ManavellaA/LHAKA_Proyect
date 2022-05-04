@@ -5,6 +5,11 @@ body{
 
 /*----------------NAV----------------*/
 
+.bg__scroll{
+    background-color: rgba(255, 255, 246, 0.323)!important;
+    min-height: 5vh!important;
+}
+
 .img__nav{
     width: 9rem;
     height: auto;
@@ -37,6 +42,26 @@ body{
 
 .view_4{
     margin: 10vh 0 10vh 0;
+}
+
+@media screen and (max-width: 1280px){
+    @media screen and (max-height: 750px){
+        .style_rezize_2{
+            margin: 7rem 0 0 0!important;
+        }
+    }
+
+    .style_rezize{
+        margin: 5rem 0 5rem 0;
+    }
+
+    h4{
+        font-size: 1.2em!important;
+    }
+
+    .p_text{
+        font-size: 0.7em;
+    }
 }
 
 @media screen and (max-width: 991px){
