@@ -7,8 +7,12 @@ body{
 /*----------------NAV----------------*/
 
 .bg__scroll{
-    background-color: rgba(255, 255, 246, 0.323)!important;
+    background-color: rgba(48, 45, 27, 0.363)!important;
     min-height: 5vh!important;
+}
+
+.a__nav__scroll{
+    color: #fff!important;
 }
 
 .img__nav{
@@ -19,6 +23,7 @@ body{
 .a__nav{
     font-size: 1.1em;
 }
+
 
 /*-----------------------------------*/
 
