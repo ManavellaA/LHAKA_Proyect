@@ -1,25 +1,25 @@
-body{
-    background-color: rgba(218, 215, 206, 0.176)!important;
+body {
+    background-color: rgba(218, 215, 206, 0.176) !important;
     margin: 0 0 0 0;
 }
 
-.img__nav{
+.img__nav {
     width: 8rem;
     height: auto;
 }
 
-.a__nav{
+.a__nav {
     font-size: 1.1em;
 }
 
-.aboutme__img{
+.aboutme__img {
     height: 100vh;
     width: 100%;
     object-fit: cover;
     overflow: hidden;
 }
 
-.vista3{
+.vista3 {
     margin: 10vh 0 10vh 0;
 }
 
@@ -37,76 +37,77 @@ section.section-prod h3.section-prod__title {
 }
 
 section.section-prod div.section-prod__img1 {
-    background-image: url(/assets/img/prueba.png);
+    background-image: url(/assets/img/img-1.jpg);
     background-size: cover;
     background-position: center;
     height: 300px;
 }
 
 section.section-prod div.section-prod__img2 {
-    background-image: url(/assets/img/prueba.png);
+    background-image: url(/assets/img/img-2.jpg);
     background-size: cover;
     background-position: center;
     height: 145px;
 }
 
 section.section-prod div.section-prod__img3 {
-    background-image: url(/assets/img/prueba-2.png);
+    background-image: url(/assets/img/img-3.jpg);
     background-size: cover;
     background-position: center;
     height: 145px;
 }
 
 section.section-prod div.section-prod__img4 {
-    background-image: url(/assets/img/prueba.png);
+    background-image: url(/assets/img/img-4.jpg);
     background-size: cover;
     background-position: center;
     height: 155px;
 }
 
 section.section-prod div.section-prod__img5 {
-    background-image: url(/assets/img/prueba.png);
+    background-image: url(/assets/img/img-5.jpg);
     background-size: cover;
     background-position: center;
     height: 187px;
 }
 
 section.section-prod div.section-prod__img6 {
-    background-image: url(/assets/img/prueba-2.png);
+    background-image: url(/assets/img/img-6.jpg);
     background-size: cover;
     background-position: center;
     height: 187px;
 }
 
 section.section-prod div.section-prod__img7 {
-    background-image: url(/assets/img/prueba-2.png);
+    background-image: url(/assets/img/img-7.jpg);
     background-size: cover;
     background-position: center;
     height: 350px;
 }
 
 section.section-prod div.section-prod__img8 {
-    background-image: url(/assets/img/prueba.png);
+    background-image: url(/assets/img/img-8.jpg);
     background-size: cover;
+    background-position-y: 30%;
     height: 250px;
 }
 
 section.section-prod div.section-prod__img9 {
-    background-image: url(/assets/img/prueba-2.png);
+    background-image: url(/assets/img/img-9.jpg);
     background-size: cover;
     background-position: center;
     height: 140px;
 }
 
 section.section-prod div.section-prod__img10 {
-    background-image: url(/assets/img/prueba-2.png);
+    background-image: url(/assets/img/img-10.jpg);
     background-size: cover;
     background-position: center;
     height: 140px;
 }
 
 section.section-prod div.section-prod__img11 {
-    background-image: url(/assets/img/prueba-2.png);
+    background-image: url(/assets/img/img-11.jpg);
     background-size: cover;
     background-position: center;
     height: 400px;
@@ -188,13 +189,13 @@ section.section-cliecon span.section-con__ico--celular {
     background-image: url(/assets/img/celular.png);
 }
 
-@media screen and (max-width: 991px){
-    .nav-link{
+@media screen and (max-width: 991px) {
+    .nav-link {
         background-color: rgba(0, 0, 0, 0.453);
-        color: white!important;
+        color: white !important;
     }
 
-    .img__nav{
+    .img__nav {
         width: 6rem;
     }
 }
@@ -221,7 +222,7 @@ section.section-cliecon span.section-con__ico--celular {
     }
 
     section.section-cliecon p.section-con__p {
-       padding: 0 100px;
+        padding: 0 100px;
     }
 }
 
@@ -230,20 +231,17 @@ section.section-cliecon span.section-con__ico--celular {
 
     /* Sección Productos */
     section.section-prod div.section-prod__img1 {
-        height: 600px;
+        height: 700px;
     }
 
     section.section-prod div.section-prod__img2,
     section.section-prod div.section-prod__img3,
-    section.section-prod div.section-prod__img4 {
-        height: 295px;
-    }
-
+    section.section-prod div.section-prod__img4,
     section.section-prod div.section-prod__img5,
     section.section-prod div.section-prod__img6,
     section.section-prod div.section-prod__img9,
     section.section-prod div.section-prod__img10 {
-        height: 395px;
+        height: 345px;
     }
 
     section.section-prod div.section-prod__img7 {
@@ -251,7 +249,7 @@ section.section-cliecon span.section-con__ico--celular {
     }
 
     section.section-prod div.section-prod__img8 {
-        height: 355px;
+        height: 405px;
     }
 
     section.section-prod div.section-prod__img11 {
