@@ -3,7 +3,7 @@ $(document).ready(function(){
     var previousScroll = 0;
     $(window).scroll(function(event){
        var scroll = $(this).scrollTop();
-       if (scroll > previousScroll && scroll > 200){
+       if (scroll > previousScroll && scroll > 100){
            $nav.addClass('bg__scroll');
        } else {
            $nav.removeClass('bg__scroll');
