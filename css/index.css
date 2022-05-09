@@ -1,3 +1,12 @@
+@font-face{
+    font-family: 'Banana';
+    src: url('../assets/fonts/Banana\ Chip\ Mufflins.ttf');
+}
+
+.font-banana{
+    font-family: 'Banana';
+}
+
 body{
     background-color: rgba(218, 215, 206, 0.176)!important;
     margin: 0 0 0 0;
@@ -37,7 +46,7 @@ body{
 }
 
 .p_text{
-    font-size: 0.8em;
+    font-size: 1em!important;
     font-weight: bold;
     color: rgba(0, 0, 0, 0.607);
 }
