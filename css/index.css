@@ -25,6 +25,11 @@ a {
     font-size: 1.1em;
 }
 
+
+/*-----------------------------------*/
+
+/*----------------ABOUT ME----------------*/
+
 .aboutme__img {
     height: 100vh;
     width: 100%;
@@ -32,8 +37,22 @@ a {
     overflow: hidden;
 }
 
-.vista3 {
+.p_text {
+    font-size: 1em !important;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.607);
+}
+
+.view_3 {
+    margin: 10vh 0 0 0;
+}
+
+.view_4 {
     margin: 10vh 0 10vh 0;
+}
+
+.map {
+    width: 465px;
 }
 
 /* Sección PRODUCTOS */
@@ -148,6 +167,12 @@ footer.footer p.footer__direccion {
     line-height: 20px;
 }
 
+@media screen and (max-width: 600px) {
+    .map {
+        width: 90vw !important;
+    }
+}
+
 @media screen and (max-width: 991px) {
     .nav-link {
         background-color: rgba(0, 0, 0, 0.453);
@@ -158,6 +183,9 @@ footer.footer p.footer__direccion {
         width: 6rem;
     }
 
+    .p_text {
+        font-size: 0.7em;
+    }
 }
 
 @media only screen and (min-width: 1023px) {
@@ -188,3 +216,24 @@ footer.footer p.footer__direccion {
         line-height: 44px;
     }
 }
+
+@media screen and (max-width: 1280px) {
+    @media screen and (max-height: 750px) {
+        .style_rezize_2 {
+            margin: 7rem 0 0 0 !important;
+        }
+    }
+
+    .style_rezize {
+        margin: 5rem 0 5rem 0;
+    }
+
+    h4 {
+        font-size: 1.2em !important;
+    }
+
+    .p_text {
+        font-size: 0.7em;
+    }
+}
+
