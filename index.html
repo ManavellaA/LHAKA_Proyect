@@ -5,134 +5,106 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <title>Document</title>
     <link rel="stylesheet" href="./css/index.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link href="./css/animate.css" rel="stylesheet" type="text/css" />
-    <meta name="description" content="">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
 </head>
 
 <body>
-
-
-    <section class="section-prod my-5" id="products">
+    <!-- Prendas -->
+    <section class="prendas my-5" id="products">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-2 g-3">
+                <div class="col">
+                    <div class="prendas__img prendas__img1" title="Polera Georgina - Azul"></div>
+                </div>
+                <div class="col">
+                    <div class="prendas__img prendas__img2" title="Remeron Egipto "></div>
+                </div>
+                <div class="col">
+                    <div class="prendas__img prendas__img3" title="Remera Betty"></div>
+                </div>
+                <div class="col">
+                    <div class="prendas__img prendas__img4" title=""></div>
+                </div>
+                <div class="col">
+                    <div class="prendas__img prendas__img5" title="Ruana Alcides - Cuadrilla Frambuesa"></div>
+                </div>
+                <div class="col">
+                    <div class="prendas__img prendas__img6" title="Remera Ritz - Blanco"></div>
+                </div>
+                <div class="col">
+                    <div class="prendas__img prendas__img7" title=""></div>
+                </div>
+                <div class="col">
+                    <div class="prendas__img prendas__img8" title="Polera Tati - Terracota"></div>
+                </div>
+                <div class="col">
+                    <div class="prendas__img prendas__img9" title=""></div>
+                </div>
+                <div class="col">
+                    <div class="prendas__img prendas__img10" title="Remera Formosa"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Clientes -->
+    <section class="clientes" id="#client">
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h3 class="section-prod__title d-flex justify-content-center mb-4">Productos</h3>
-                    <div class="row">
-                        <div class="col-6 pe-1">
-                            <div class="section-prod__img1"></div>
-                        </div>
-                        <div class="col-6 ps-2">
-                            <div class="row flex-column">
-                                <div class="col-12">
-                                    <div class="section-prod__img2"></div>
-                                </div>
-                                <div class="col-12 prod-mt">
-                                    <div class="section-prod__img3"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <h3 class="clientes__titulo text-center my-4 mt-lg-5">Nuestros Clientes</h3>
                 </div>
-                <div class="col-12 prod-mt">
-                    <div class="row">
-                        <div class="col-6 pe-1">
-                            <div class="row">
-                                <div class="col-12">
-                                    <div class="section-prod__img4"></div>
-                                </div>
-                                <div class="col-6 pe-1 prod-mt">
-                                    <div class="section-prod__img5"></div>
-                                </div>
-                                <div class="col-6 ps-1 prod-mt">
-                                    <div class="section-prod__img6"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-6 ps-2">
-                            <div class="section-prod__img7"></div>
-                        </div>
-                    </div>
+                <div class="col-12 d-flex justify-content-between overflow-auto mt-lg-4">
+                    <img src="../assets/img/walmart-icon.svg" alt="Logo Walmart" class="me-4 mb-1">
+                    <img src="../assets/img/jumbo-icon.svg" alt="Logo Jumbo Logo" class="me-4 mt-1">
+                    <img src="../assets/img/cheeky-icon.svg" alt="Logo Cheeky Logo" class="me-4">
+                    <img src="../assets/img/carrefour-icon.svg" alt="Logo Carrefour">
                 </div>
-                <div class="col-12 prod-mt">
-                    <div class="row">
-                        <div class="col-8 pe-1">
-                            <div class="row">
-                                <div class="col-12">
-                                    <div class="section-prod__img8"></div>
-                                </div>
-                                <div class="col-6 pe-1 prod-mt">
-                                    <div class="section-prod__img9"></div>
-                                </div>
-                                <div class="col-6 ps-1 prod-mt">
-                                    <div class="section-prod__img10"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-4 ps-2">
-                            <div class="section-prod__img11"></div>
+            </div>
+        </div>
+    </section>
+    <!-- Contacto -->
+    <section class="contacto d-flex align-items-center" id="#contact">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-11 col-lg-9 col-xl-7">
+                    <div class="contacto__overlay text-center">
+                        <h3 class="contacto__titulo pt-4">CONTACTO</h3>
+                        <p class="contacto__desc p-2">Escríbenos.<br>
+                            Chatea con nosotros.<br>
+                            Interactúa por Instagram.
+                        </p>
+                        <div class="d-flex flex-column justify-content-evenly align-items-center flex-md-row mt-4">
+                            <a href="https://www.instagram.com/lhaka_wichi" class="contacto__redes"><i
+                                    class="bi bi-instagram"></i> Lhaka_wichi</a>
+                            <a href="mailto:lhakawichi@gmail.com" class="contacto__redes py-3 py-md-0"><i
+                                    class="bi bi-envelope"></i> lhakawichi@gmail.com</a>
+                            <a href="" class="contacto__redes"><i class="bi bi-whatsapp"></i> +54 9 38 7597 3864</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
-    <section class="section-cliecon" id="#contact">
-        <div class="section-clie">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <h3 class="section-clie__title d-flex justify-content-center my-4">Nuestros Clientes</h3>
-                    </div>
-                    <div class="col-12 d-flex justify-content-between mt-lg-5 section-clie__overflow">
-                        <img src="./assets/img/walmart-icon.svg" alt="Walmart Logo" class="me-4 mb-1">
-                        <img src="./assets/img/jumbo-icon.svg" alt="Jumbo Logo" class="me-4 mt-1">
-                        <img src="./assets/img/cheeky-icon.svg" alt="Cheeky Logo" class="me-4">
-                        <img src="./assets/img/carrefour-icon.svg" alt="CarrefourLogo">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="section-con d-flex align-items-center">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-11 col-lg-9 col-xl-7">
-                        <div class="section-con__overlay">
-                            <h3 class="section-con__title text-center pt-4">CONTACTO</h3>
-                            <p class="section-con__p text-center px-2">Escríbenos.<br>
-                                Chatea con nosotros.<br>
-                                Interactúa por Instagram.
-                            </p>
-                            <div class="d-flex flex-column justify-content-evenly align-items-center flex-md-row">
-                                <a href="" class="section-con__redes d-flex align-items-center"><span
-                                        class="section-con__ico section-con__ico--insta"></span> Lhaka_wichi</a>
-                                <a href="" class="section-con__redes d-flex align-items-center my-4 my-md-0"><span
-                                        class="section-con__ico section-con__ico--correo"></span>
-                                    lhakawichi@gmail.com</a>
-                                <a href="" class="section-con__redes d-flex align-items-center"><span
-                                        class="section-con__ico section-con__ico--whatsapp"></span>
-                                    3875973864</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    </main>
+    <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <div class="row mt-4">
-                <div class="col-12 col-md-4">
-                    <h4>Donde Estamos</h4>
-                    <p>Cooperativa de Trabajo San Ignacio de Loyola – Ruta Nacional 81 km 1837, Hickmann (Embarcación),
+            <div class="row mt-4 align-items-md-center">
+                <div class="col-12 col-md-5 col-lg-4">
+                    <h4 class="footer__titulo">Donde Estamos</h4>
+                    <p class="footer__direccion my-4"><i class="bi bi-geo-alt"></i> Cooperativa de Trabajo San Ignacio
+                        de Loyola – Ruta Nacional 81 km 1837, Hickmann (Embarcación),
                         Salta, Argentina CP 4554
                     </p>
                 </div>
-                <div class="col-12 col-md-8 d-flex justify-content-end">
+                <div class="col-12 col-md-7 col-lg-8 d-flex justify-content-end mt-2">
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d8951.399840362861!2d-63.70079!3d-23.153775!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x940fd1be6fbfc0e1%3A0xe2e033390999c1fd!2sRN81%201837%2C%20Salta%2C%20Argentina!5e1!3m2!1ses-419!2scl!4v1651699324733!5m2!1ses-419!2scl"
                         width="465" height="248" style="border:0;" allowfullscreen="" loading="lazy"
@@ -144,7 +116,6 @@
             </div>
         </div>
     </footer>
-    </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
         integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
     </script>
