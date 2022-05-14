@@ -75,6 +75,10 @@ a {
     align-items: flex-end;
 }
 
+.bg-solid{
+    background-color: #ffffff85;
+}
+
 /* Sección PRODUCTOS */
 section.prendas img.prendas__img {
     object-fit: cover;

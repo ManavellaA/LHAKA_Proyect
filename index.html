@@ -21,32 +21,36 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg fixed-top navbar-light">
-        <div class="container-fluid">
-            <div>
-                <img src="./assets/img/brand.png" alt="LHAKA_brand"
-                    class="img__nav position-absolute top-10 start-50 translate-middle">
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top navbar-light">
+            <div class="container-fluid">
+                <div>
+                    <img src="./assets/img/brand.png" alt="LHAKA_brand"
+                        class="img__nav position-absolute top-10 start-50 translate-middle">
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse align-items-center justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav my-3">
+                        <li class="nav-item">
+                            <a class="nav-link active text-center a__nav" aria-current="page" href="#aboutme">Sobre
+                                nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-center a__nav" aria-current="page"
+                                href="#products">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-center a__nav" aria-current="page"
+                                href="#contact">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse align-items-center justify-content-end" id="navbarNav">
-                <ul class="navbar-nav mt-3">
-                    <li class="nav-item">
-                        <a class="nav-link active text-center a__nav" aria-current="page" href="#aboutme">Sobre
-                            nosotros</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active text-center a__nav" aria-current="page" href="#products">Productos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active text-center a__nav" aria-current="page" href="#contact">Contacto</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
 
     <main class="top-0">
         <section id="aboutme">
@@ -57,16 +61,19 @@
                             <div
                                 class="d-flex flex-column align-items-center justify-content-center ps-5 pe-5 style_rezize_2 style_rezize">
                                 <h4>NUESTRA HISTORIA</h4>
-                                <p class="text-black-50 mb-0 mt-2 p_text font-banana">Dino Salas, cacique de la Comunidad
+                                <p class="text-black-50 mb-0 mt-2 p_text font-banana">Dino Salas, cacique de la
+                                    Comunidad
                                     Wichí
                                     San Ignacio de Loyola envió en 2014
                                     un video a Aldo Navilli, presidente de la Fundación Molinos Cañuelas. <br>
                                     <br>
                                     Queria que su pueblo encuentre TRABAJO, DIGNIDAD Y CRECIMIENTO. <br>
                                     <br>
-                                    Ese año Aldo inició un programa social centrado en infraestructura, nutrición, higiene,
+                                    Ese año Aldo inició un programa social centrado en infraestructura, nutrición,
+                                    higiene,
                                     salud, asistencia,
-                                    calidad escolar y promocionó vínculos en nuestra comunidad San Ignacio de Loyola. <br>
+                                    calidad escolar y promocionó vínculos en nuestra comunidad San Ignacio de Loyola.
+                                    <br>
                                     Año 2015 comenzó un proyecto en paralelo de producción textil orientado a
                                     nuestra emancipación y autonomía. Con capacitación y acompañamiento de profesionales
                                     destacados, logramos
@@ -77,7 +84,8 @@
                                     Hoy somos productores......
                                     Sin perder nuestra lengua, territorio y vínculos, CRECEMOS.<br>
                                     <br>
-                                    <p class="text-center font-banana"><strong> “At´häna Tä Letafwelej n´oyejnej oyenek chik
+                                    <p class="text-center font-banana"><strong> “At´häna Tä Letafwelej n´oyejnej oyenek
+                                            chik
                                             oyen okalay´i am” <br>
                                             (“Ahora que nos conocemos podemos ser amigos”) </strong>
                                     </p>
@@ -97,7 +105,8 @@
                                     elit.
                                     Error
                                     rem molestiae
-                                    eos corrupti ex, enim laborum recusandae quaerat voluptas dicta neque dolores provident
+                                    eos corrupti ex, enim laborum recusandae quaerat voluptas dicta neque dolores
+                                    provident
                                     labore, vitae
                                     esse. Aspernatur recusandae enim id!</p>
                             </div>
@@ -285,6 +294,18 @@
     <script src="./js/wow.js"></script>
     <script>
         new WOW().init();
+    </script>
+    <!-- Script para cambiar BG al hacer scroll -->
+    <script type="text/javascript">
+        $(function () {
+            $(window).on("scroll", function () {
+                if ($(window).scrollTop() > 100) {
+                    $(".navbar").addClass("bg-solid");
+                } else {
+                    $(".navbar").removeClass("bg-solid");
+                }
+            });
+        });
     </script>
 </body>
 
