@@ -55,6 +55,26 @@ a {
     width: 465px;
 }
 
+.bg-01 {
+    background-image: url(https://picsum.photos/700/700?random=1);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+    height: 1370px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.bg-02 {
+    background-image: url(https://picsum.photos/700/700?random=1);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    height: 655px;
+    display: flex;
+    align-items: flex-end;
+}
+
 /* Sección PRODUCTOS */
 section.prendas img.prendas__img {
     object-fit: cover;
@@ -132,6 +152,19 @@ footer.footer p.footer__direccion {
     }
 }
 
+@media screen and (min-width: 600px) {
+    .bg-02 {
+        height: 909px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .bg-02 {
+        height: 1029px;
+    }
+}
+
+
 @media screen and (max-width: 991px) {
     .nav-link {
         background-color: rgba(0, 0, 0, 0.453);
@@ -146,6 +179,20 @@ footer.footer p.footer__direccion {
         font-size: 0.7em;
     }
 }
+@media only screen and (min-width: 1023px) {
+    .bg-01 {
+        background-position: left;
+        align-items: center;
+        height: 86vh;
+    }
+    
+    .bg-02 {
+        background-position: right;
+        align-items: center;
+        height: 85vh;
+    }
+}
+
 
 @media only screen and (min-width: 1023px) {
 
@@ -175,6 +222,18 @@ footer.footer p.footer__direccion {
         line-height: 44px;
     }
 }
+
+@media only screen and (min-width: 1200px) {
+
+    .bg-01 {
+        height: 102vh;
+    }
+    
+    .bg-02 {
+        height: 101vh;
+    }
+}
+
 
 @media screen and (max-width: 1280px) {
     @media screen and (max-height: 750px) {
