@@ -3,8 +3,19 @@
     src: url('../assets/fonts/Banana\ Chip\ Mufflins.ttf');
 }
 
-.font-banana{
-    font-family: 'Banana';
+@font-face{ 
+    font-family: 'Cormorant';
+    src: url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;700&display=swap');
+}
+
+p,
+span,
+h1,
+h2,
+h3,
+h4,
+a {
+    font-family: 'Cormorant Garamond', serif;
 }
 
 body{
@@ -17,12 +28,8 @@ body{
 /*----------------NAV----------------*/
 
 .bg__scroll{
-    background-color: rgba(48, 45, 27, 0.363);
+    background-color: #ffffff85;
     min-height: 5vh;
-}
-
-.a__nav__scroll{
-    color: #fff!important;
 }
 
 .img__nav{
@@ -60,8 +67,105 @@ body{
     margin: 10vh 0 10vh 0;
 }
 
-.map{
-    width: 465px;
+/* Sección PRODUCTOS */
+section.prendas img.prendas__img {
+    object-fit: cover;
+    width: 100%;
+    height: 500px;
+}
+
+/* Section Clientes */
+section.clientes {
+    height: 200px;
+    background: #000000;
+}
+
+section.clientes h3.clientes__titulo {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 44px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+/* Section Contacto */
+section.contacto {
+    background-image: url(../assets/img/base-contacto.png);
+    height: 350px;
+}
+
+section.contacto div.contacto__overlay {
+    background: rgba(255, 255, 255, 0.47);
+    height: 300px;
+}
+
+section.contacto h3.contacto__titulo {
+    font-weight: 700;
+    font-size: 33px;
+    line-height: 33px;
+    text-transform: uppercase;
+}
+
+section.contacto a.contacto__redes {
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 23px;
+    color: #191919;
+    text-decoration: none;
+}
+
+section.contacto a.contacto__redes:hover {
+    color: #636363;
+}
+
+section.contacto p.contacto__desc {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 25px;
+}
+
+/* Footer */
+footer.footer h4.footer__titulo {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+footer.footer p.footer__direccion {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+
+@media only screen and (min-width: 1023px) {
+
+    section.prendas img.prendas__img {
+        height: 700px;
+    }
+
+    section.contacto p.contacto__desc {
+        line-height: 26px;
+    }
+
+    section.clientes h3.clientes__titulo {
+        font-size: 46px;
+        line-height: 46px;
+    }
+
+    section.clientes {
+        height: 300px;
+    }
+
+    section.contacto {
+        height: 450px;
+    }
+
+    section.contacto h3.contacto__titulo {
+        font-size: 36px;
+        line-height: 44px;
+    }
 }
 
 @media screen and (max-width: 1280px){
@@ -88,6 +192,10 @@ body{
         width: 6rem;
     }
 
+    .a__nav{
+        color: #FFFFFF!important;
+    }
+
     .p_text{
         font-size: 0.7em;
     }
@@ -97,249 +205,5 @@ body{
 
     .aboutme__img{
         height: 75vh;
-    }
-}
-
-/*----------------------------------------*/
-/* Sección PRODUCTOS */
-section.section-prod .prod-mt {
-    margin-top: 10px;
-}
-
-section.section-prod h3.section-prod__title {
-    font-weight: 800;
-    font-size: 29px;
-    line-height: 44px;
-    color: #000000;
-    text-transform: uppercase;
-}
-
-section.section-prod div.section-prod__img1 {
-    background-image: url(../assets/img/img-1.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 300px;
-}
-
-section.section-prod div.section-prod__img2 {
-    background-image: url(../assets/img/img-2.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 145px;
-}
-
-section.section-prod div.section-prod__img3 {
-    background-image: url(../assets/img/img-3.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 145px;
-}
-
-section.section-prod div.section-prod__img4 {
-    background-image: url(../assets/img/img-4.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 155px;
-}
-
-section.section-prod div.section-prod__img5 {
-    background-image: url(../assets/img/img-5.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 187px;
-}
-
-section.section-prod div.section-prod__img6 {
-    background-image: url(../assets/img/img-6.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 187px;
-}
-
-section.section-prod div.section-prod__img7 {
-    background-image: url(../assets/img/img-7.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 350px;
-}
-
-section.section-prod div.section-prod__img8 {
-    background-image: url(../assets/img/img-8.jpg);
-    background-size: cover;
-    background-position-y: 30%;
-    height: 250px;
-}
-
-section.section-prod div.section-prod__img9 {
-    background-image: url(../assets/img/img-9.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 140px;
-}
-
-section.section-prod div.section-prod__img10 {
-    background-image: url(../assets/img/img-10.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 140px;
-}
-
-section.section-prod div.section-prod__img11 {
-    background-image: url(../assets/img/img-11.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 400px;
-}
-
-/* Sección Cliente y Contacto */
-section.section-cliecon div.section-clie {
-    height: 200px;
-    background: #000000;
-}
-
-section.section-cliecon h3.section-clie__title {
-    font-weight: 600;
-    font-size: 28px;
-    line-height: 44px;
-    color: #FFFFFF;
-    text-transform: uppercase;
-}
-
-section.section-cliecon div.section-clie__overflow {
-    overflow: auto;
-}
-
-section.section-cliecon div.section-con {
-    height: 350px;
-    background-image: url(../assets/img/base-con.png);
-}
-
-section.section-cliecon div.section-con__overlay {
-    background: rgba(255, 255, 255, 0.47);
-    height: 300px;
-}
-
-section.section-cliecon h3.section-con__title {
-    font-weight: 800;
-    font-size: 24px;
-    line-height: 29px;
-    color: #000000;
-}
-
-section.section-cliecon p.section-con__p {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
-    color: #000000;
-    padding: 0 50px;
-}
-
-section.section-cliecon a.section-con__redes {
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 19px;
-    color: #000000;
-    text-decoration: none;
-}
-
-section.section-cliecon span.section-con__ico {
-    background-size: contain;
-    height: 16px;
-    width: 16px;
-    margin-right: 5px;
-    background-repeat: no-repeat;
-    transition: all .2s ease-in-out;
-}
-
-section.section-cliecon span.section-con__ico--insta {
-    background-image: url(../assets/img/instagram.png);
-}
-
-section.section-cliecon span.section-con__ico--correo {
-    background-image: url(../assets/img/correo.png);
-}
-
-section.section-cliecon span.section-con__ico--whatsapp {
-    background-image: url(../assets/img/whatsapp.png);
-}
-
-section.section-cliecon span.section-con__ico--celular {
-    background-image: url(../assets/img/celular.png);
-}
-
-@media screen and (max-width: 991px) {
-    .nav-link {
-        background-color: rgba(0, 0, 0, 0.453);
-        color: white !important;
-    }
-
-    .img__nav {
-        width: 6rem;
-    }
-}
-
-@media only screen and (min-width: 375px) {
-    section.section-cliecon h3.section-clie__title {
-        font-size: 34px;
-    }
-
-    section.section-prod h3.section-prod__title {
-        font-size: 34px;
-    }
-
-    section.section-cliecon a.section-con__redes {
-        font-size: 16px;
-    }
-}
-
-@media only screen and (min-width: 768px) {
-    section.section-cliecon span.section-con__ico {
-        height: 24px;
-        width: 24px;
-        margin-right: 15px;
-    }
-
-    section.section-cliecon p.section-con__p {
-        padding: 0 100px;
-    }
-}
-
-
-@media only screen and (min-width: 1023px) {
-
-    /* Sección Productos */
-    section.section-prod div.section-prod__img1 {
-        height: 700px;
-    }
-
-    section.section-prod div.section-prod__img2,
-    section.section-prod div.section-prod__img3,
-    section.section-prod div.section-prod__img4,
-    section.section-prod div.section-prod__img5,
-    section.section-prod div.section-prod__img6,
-    section.section-prod div.section-prod__img9,
-    section.section-prod div.section-prod__img10 {
-        height: 345px;
-    }
-
-    section.section-prod div.section-prod__img7 {
-        height: 700px;
-    }
-
-    section.section-prod div.section-prod__img8 {
-        height: 405px;
-    }
-
-    section.section-prod div.section-prod__img11 {
-        height: 760px;
-    }
-
-    /* Sección Clientes y Contacto */
-    section.section-cliecon div.section-clie {
-        height: 300px;
-    }
-
-    section.section-cliecon div.section-con {
-        height: 450px;
     }
 }
