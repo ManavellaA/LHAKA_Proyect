@@ -103,6 +103,8 @@ section.clientes h3.clientes__titulo {
 /* Section Contacto */
 section.contacto {
     background-image: url(../assets/img/base-contacto.png);
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 350px;
 }
 
