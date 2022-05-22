@@ -175,6 +175,7 @@ footer.footer p.footer__direccion {
     }
 }
 
+
 @media screen and (max-width: 991px){
     .nav-link{
         background-color: rgba(0, 0, 0, 0.453);
@@ -190,6 +191,12 @@ footer.footer p.footer__direccion {
 
     .p_text{
         font-size: 0.7em;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .margin-text{
+        margin: 10vh 0 10vh 0;
     }
 }
 
