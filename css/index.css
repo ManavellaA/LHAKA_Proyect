@@ -87,13 +87,18 @@ a {
 section.prendas img.prendas__img {
     object-fit: cover;
     width: 100%;
-    height: 500px;
+    height: 380px;
 }
 
 /* Section Clientes */
 section.clientes {
     height: 200px;
     background: #000000;
+}
+
+section.clientes img.cliente__img{
+    height: 70px;
+    width: 100%;
 }
 
 section.clientes h3.clientes__titulo {
@@ -207,7 +212,7 @@ footer.footer p.footer__direccion {
 @media only screen and (min-width: 1023px) {
 
     section.prendas img.prendas__img {
-        height: 700px;
+        height: 550px;
     }
 
     section.contacto p.contacto__desc {
@@ -215,8 +220,8 @@ footer.footer p.footer__direccion {
     }
 
     section.clientes h3.clientes__titulo {
-        font-size: 46px;
-        line-height: 46px;
+        font-size: 40px;
+        line-height: 42px;
     }
 
     section.clientes {
@@ -241,6 +246,10 @@ footer.footer p.footer__direccion {
     
     .bg-02 {
         height: 101vh;
+    }
+
+    section.prendas img.prendas__img {
+        height: 700px;
     }
 }
 
