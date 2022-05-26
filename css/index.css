@@ -24,7 +24,7 @@ h4 {
     font-family: 'Robotoflex';
 }
 
-p, a {
+p, a, strong {
     font-family: 'Montserrat';
 }
 
@@ -34,8 +34,13 @@ h2,
 h3,
 h4, 
 p, 
-a {
+a, 
+strong {
     color: #454545e8;
+}
+
+strong{
+    text-transform: uppercase;
 }
 
 body{
