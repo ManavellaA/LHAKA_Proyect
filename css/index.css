@@ -38,10 +38,10 @@ a,
 strong {
     color: #454545e8;
 }
-
+/* 
 strong{
     text-transform: uppercase;
-}
+} */
 
 body{
     background-color: rgba(218, 215, 206, 0.176)!important;
