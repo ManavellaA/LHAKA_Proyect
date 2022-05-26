@@ -7,6 +7,12 @@
     src: url('../assets/fonts/Montserrat-VariableFont_wght.ttf');
 }
 
+body{
+    background-color: rgba(218, 215, 206, 0.176)!important;
+    margin: 0 0 0 0;
+    height: 100%;
+}
+
 span,
 h1,
 h2,
@@ -28,12 +34,6 @@ p,
 a, 
 strong {
     color: #454545e8;
-}
-
-body{
-    background-color: rgba(218, 215, 206, 0.176)!important;
-    margin: 0 0 0 0;
-    height: 100%;
 }
 
 /*----------------NAV----------------*/
