@@ -208,6 +208,7 @@ footer.footer p.footer__direccion {
     }
 
     .img__nav{
+        margin-top: 2rem;
         width: 8rem;
     }
 }
