@@ -1,15 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;700&display=swap');
-@font-face{
-    font-family: 'Banana';
-    src: url('../assets/fonts/Banana\ Chip\ Mufflins.ttf');
-}
 @font-face{
     font-family: 'Robotoflex';
     src: url('../assets/fonts/RobotoFlex-Regular.ttf');
-}
-@font-face{
-    font-family: 'Prata';
-    src: url('../assets/fonts/Prata-Regular.ttf');
 }
 @font-face{
     font-family: 'Montserrat';
@@ -212,8 +203,5 @@ footer.footer p.footer__direccion {
 
     .img__nav{
         width: 10rem;
-    }
-    .bg__scroll{
-        min-height: 12vh;
     }
 }
