@@ -47,9 +47,12 @@ body{
 
 /*----------------NAV----------------*/
 
+.navbar{
+    min-height: 15vh;
+}
+
 .bg__scroll{
     background-color: #ffffff85;
-    min-height: 5vh;
 }
 
 .img__nav{
@@ -208,10 +211,9 @@ footer.footer p.footer__direccion {
     }
 
     .img__nav{
-        margin-top: 1.3rem;
         width: 10rem;
     }
     .bg__scroll{
-        min-height: 15vh;
+        min-height: 12vh;
     }
 }
