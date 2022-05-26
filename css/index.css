@@ -1,19 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;700&display=swap');
-@font-face{
-    font-family: 'Banana';
-    src: url('../assets/fonts/Banana\ Chip\ Mufflins.ttf');
-}
 @font-face{
     font-family: 'Robotoflex';
     src: url('../assets/fonts/RobotoFlex-Regular.ttf');
 }
 @font-face{
-    font-family: 'Prata';
-    src: url('../assets/fonts/Prata-Regular.ttf');
-}
-@font-face{
     font-family: 'Montserrat';
     src: url('../assets/fonts/Montserrat-VariableFont_wght.ttf');
+}
+
+body{
+    background-color: rgba(218, 215, 206, 0.176)!important;
+    margin: 0 0 0 0;
+    height: 100%;
 }
 
 span,
@@ -39,21 +36,18 @@ strong {
     color: #454545e8;
 }
 
-body{
-    background-color: rgba(218, 215, 206, 0.176)!important;
-    margin: 0 0 0 0;
-    height: 100%;
-}
-
 /*----------------NAV----------------*/
+
+.navbar{
+    min-height: 15vh;
+}
 
 .bg__scroll{
     background-color: #ffffff85;
-    min-height: 5vh;
 }
 
 .img__nav{
-    width: 9rem;
+    width: 11rem;
     height: auto;
 }
 
@@ -205,5 +199,9 @@ footer.footer p.footer__direccion {
 
     .aboutme__img{
         height: 75vh;
+    }
+
+    .img__nav{
+        width: 10rem;
     }
 }
