@@ -3,15 +3,39 @@
     font-family: 'Banana';
     src: url('../assets/fonts/Banana\ Chip\ Mufflins.ttf');
 }
+@font-face{
+    font-family: 'Robotoflex';
+    src: url('../assets/fonts/RobotoFlex-Regular.ttf');
+}
+@font-face{
+    font-family: 'Prata';
+    src: url('../assets/fonts/Prata-Regular.ttf');
+}
+@font-face{
+    font-family: 'Montserrat';
+    src: url('../assets/fonts/Montserrat-VariableFont_wght.ttf');
+}
 
-p,
 span,
 h1,
 h2,
 h3,
-h4,
+h4 {
+    font-family: 'Robotoflex';
+}
+
+p, a {
+    font-family: 'Montserrat';
+}
+
+span,
+h1,
+h2,
+h3,
+h4, 
+p, 
 a {
-    font-family: 'Banana', serif;
+    color: #454545e8;
 }
 
 body{
