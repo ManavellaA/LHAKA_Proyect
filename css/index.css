@@ -230,4 +230,8 @@ footer.footer p.footer__direccion {
     .aboutme__img{
         height: 75vh;
     }
+
+    .img__nav{
+        width: 8rem;
+    }
 }
