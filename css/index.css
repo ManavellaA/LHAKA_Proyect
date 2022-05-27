@@ -170,6 +170,42 @@ footer.footer p.footer__direccion {
     }
 }
 
+@media only screen and (min-width: 1023px) {
+
+    section.prendas img.prendas__img {
+        height: 550px;
+    }
+
+    section.contacto p.contacto__desc {
+        line-height: 26px;
+    }
+
+    section.clientes h3.clientes__titulo {
+        font-size: 40px;
+        line-height: 42px;
+    }
+
+    section.clientes {
+        height: 300px;
+    }
+
+    section.contacto {
+        height: 450px;
+    }
+
+    section.contacto h3.contacto__titulo {
+        font-size: 36px;
+        line-height: 44px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+
+    section.prendas img.prendas__img {
+        height: 700px;
+    }
+}
+
 
 @media screen and (max-width: 991px){
     .nav-link{
