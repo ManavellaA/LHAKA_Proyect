@@ -1,14 +1,15 @@
-@font-face{
+@font-face {
     font-family: 'Robotoflex';
     src: url('../assets/fonts/RobotoFlex-Regular.ttf');
 }
-@font-face{
+
+@font-face {
     font-family: 'Montserrat';
     src: url('../assets/fonts/Montserrat-VariableFont_wght.ttf');
 }
 
-body{
-    background-color: rgba(218, 215, 206, 0.176)!important;
+body {
+    background-color: rgba(218, 215, 206, 0.176) !important;
     margin: 0 0 0 0;
     height: 100%;
 }
@@ -21,7 +22,9 @@ h4 {
     font-family: 'Robotoflex';
 }
 
-p, a, strong {
+p,
+a,
+strong {
     font-family: 'Montserrat';
 }
 
@@ -29,29 +32,29 @@ span,
 h1,
 h2,
 h3,
-h4, 
-p, 
-a, 
+h4,
+p,
+a,
 strong {
     color: #454545e8;
 }
 
 /*----------------NAV----------------*/
 
-.navbar{
+.navbar {
     min-height: 15vh;
 }
 
-.bg__scroll{
+.bg__scroll {
     background-color: #ffffff85;
 }
 
-.img__nav{
+.img__nav {
     width: 11rem;
     height: auto;
 }
 
-.a__nav{
+.a__nav {
     font-size: 1.1em;
 }
 
@@ -60,14 +63,14 @@ strong {
 
 /*----------------ABOUT ME----------------*/
 
-.aboutme__img{
+.aboutme__img {
     height: 100vh;
     width: 100%;
     object-fit: cover;
     overflow: hidden;
 }
 
-.view_3{
+.view_3 {
     margin: 10vh 0 0 0;
 }
 
@@ -84,14 +87,14 @@ section.clientes {
     background: #000000;
 }
 
-section.clientes img.cliente__img{
+section.clientes img.cliente__img {
     height: 70px;
     width: 100%;
 }
 
 section.clientes h3.clientes__titulo {
     font-weight: 600;
-    font-size: 28px;
+    font-size: 20px;
     line-height: 44px;
     color: #FFFFFF;
     text-transform: uppercase;
@@ -112,14 +115,14 @@ section.contacto div.contacto__overlay {
 
 section.contacto h3.contacto__titulo {
     font-weight: 700;
-    font-size: 33px;
-    line-height: 33px;
+    font-size: 20px;
+    line-height: 21px;
     text-transform: uppercase;
 }
 
 section.contacto a.contacto__redes {
     font-weight: 400;
-    font-size: 23px;
+    font-size: 15px;
     line-height: 23px;
     color: #191919;
     text-decoration: none;
@@ -131,43 +134,80 @@ section.contacto a.contacto__redes:hover {
 
 section.contacto p.contacto__desc {
     font-weight: 400;
-    font-size: 25px;
-    line-height: 25px;
+    font-size: 16px;
+    line-height: 21px;
 }
 
 /* Footer */
 footer.footer h4.footer__titulo {
     font-weight: 700;
-    font-size: 24px;
-    line-height: 24px;
     text-transform: uppercase;
 }
 
 footer.footer p.footer__direccion {
     font-weight: 400;
-    font-size: 20px;
-    line-height: 20px;
+    font-size: 14px;
+    line-height: 23px;
 }
 
-@media screen and (max-width: 1280px){
+@media screen and (max-width: 1280px) {
 
-    .style_rezize{
+    .style_rezize {
         margin: 5rem 0 5rem 0;
     }
 
-    h4{
-        font-size: 1.2em!important;
+    h4 {
+        font-size: 1.2em !important;
     }
 
-    .p_text{
+    .p_text {
         font-size: 0.7em;
     }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 320px) {
+    section.clientes h3.clientes__titulo {
+        font-size: 25px;
+    }
 
+    section.contacto h3.contacto__titulo {
+        font-size: 27px;
+    }
+
+    section.contacto a.contacto__redes {
+        font-size: 17px;
+    }
+
+    section.contacto p.contacto__desc {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    footer.footer p.footer__direccion {
+        font-size: 16px;
+        line-height: 25px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
     section.prendas img.prendas__img {
-        height: 700px;
+        height: 550px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    section.prendas img.prendas__img {
+        height: 380px;
+    }
+
+    section.contacto a.contacto__redes {
+        font-size: 20px;
+        line-height: 36px;
+    }
+
+    section.contacto p.contacto__desc {
+        font-size: 20px;
+        line-height: 28px;
     }
 }
 
@@ -198,40 +238,64 @@ footer.footer p.footer__direccion {
         font-size: 36px;
         line-height: 44px;
     }
+
+    footer.footer iframe{
+        width: 500px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+
+    section.prendas img.prendas__img {
+        height: 700px;
+    }
+
+    section.clientes img.cliente__img {
+        height: 47px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    section.clientes img.cliente__img {
+        height: auto;
+    }
 }
 
 
-@media screen and (max-width: 991px){
-    .nav-link{
+
+
+
+@media screen and (max-width: 991px) {
+    .nav-link {
         background-color: rgba(0, 0, 0, 0.453);
     }
 
-    .img__nav{
+    .img__nav {
         width: 6rem;
     }
 
-    .a__nav{
-        color: #FFFFFF!important;
+    .a__nav {
+        color: #FFFFFF !important;
     }
 
-    .p_text{
+    .p_text {
         font-size: 0.7em;
     }
 }
 
-@media screen and (max-width: 768px){
-    .margin-text{
+@media screen and (max-width: 768px) {
+    .margin-text {
         margin: 10vh 0 10vh 0;
     }
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
 
-    .aboutme__img{
+    .aboutme__img {
         height: 75vh;
     }
 
-    .img__nav{
+    .img__nav {
         width: 10rem;
     }
 }
