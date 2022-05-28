@@ -42,7 +42,7 @@ strong {
 /*----------------NAV----------------*/
 
 .navbar {
-    min-height: 15vh;
+    min-height: 10vh;
 }
 
 .bg__scroll {
@@ -50,12 +50,13 @@ strong {
 }
 
 .img__nav {
+    margin-top: 2vh;
     width: 11rem;
     height: auto;
 }
 
 .a__nav {
-    font-size: 1.1em;
+    text-transform: uppercase; 
 }
 
 
@@ -266,12 +267,12 @@ footer.footer p.footer__direccion {
 
 
 @media screen and (max-width: 991px) {
+    #navbarNav{
+        margin-top: 2vh;
+    }
+    
     .nav-link {
         background-color: rgba(0, 0, 0, 0.453);
-    }
-
-    .img__nav {
-        width: 6rem;
     }
 
     .a__nav {
