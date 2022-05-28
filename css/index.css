@@ -67,12 +67,6 @@ strong {
     overflow: hidden;
 }
 
-.p_text{
-    font-size: 1em!important;
-    font-weight: bold;
-    color: rgba(0, 0, 0, 0.607);
-}
-
 .view_3{
     margin: 10vh 0 0 0;
 }
@@ -170,6 +164,13 @@ footer.footer p.footer__direccion {
     }
 }
 
+@media only screen and (min-width: 1200px) {
+
+    section.prendas img.prendas__img {
+        height: 700px;
+    }
+}
+
 @media only screen and (min-width: 1023px) {
 
     section.prendas img.prendas__img {
@@ -196,13 +197,6 @@ footer.footer p.footer__direccion {
     section.contacto h3.contacto__titulo {
         font-size: 36px;
         line-height: 44px;
-    }
-}
-
-@media only screen and (min-width: 1200px) {
-
-    section.prendas img.prendas__img {
-        height: 700px;
     }
 }
 
