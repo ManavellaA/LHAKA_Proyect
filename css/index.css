@@ -42,7 +42,7 @@ strong {
 /*----------------NAV----------------*/
 
 .navbar {
-    min-height: 10vh;
+    min-height: 6rem;
 }
 
 .bg__scroll {
@@ -50,7 +50,7 @@ strong {
 }
 
 .img__nav {
-    margin-top: 2vh;
+    margin-top: 1rem;
     width: 11rem;
     height: auto;
 }
