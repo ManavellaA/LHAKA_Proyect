@@ -8,4 +8,8 @@ $(document).ready(function(){
            $nav.removeClass('bg__scroll');
         }  
     });
+
+    $('.a__nav').click(function(){ 
+        $('#navbarNav').removeClass('show')     
+    });
 });

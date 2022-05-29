@@ -50,7 +50,6 @@ strong {
 }
 
 .img__nav {
-    margin-top: 1rem;
     width: 11rem;
     height: auto;
 }
@@ -74,6 +73,11 @@ strong {
 
 .view_3 {
     margin: 10vh 0 0 0;
+}
+
+.reward{
+    width: 11rem;
+    height: auto;
 }
 
 /* Sección PRODUCTOS */
@@ -298,7 +302,6 @@ footer.footer p.footer__direccion {
     }
 
     .img__nav {
-        margin-top: 3vh;
         width: 10rem;
     }
 }
