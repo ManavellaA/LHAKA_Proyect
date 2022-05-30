@@ -78,9 +78,6 @@ strong {
 .reward{
     width: 11rem;
     height: auto;
-}
-
-.reward:hover{
     animation: pulse 1s infinite;
 }
 
