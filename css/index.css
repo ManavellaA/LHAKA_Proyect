@@ -80,6 +80,19 @@ strong {
     height: auto;
 }
 
+.reward:hover{
+    animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: rgba(0, 0, 0, 0.583) 0 0 0 0;
+    }
+    75% {
+        box-shadow: rgba(0, 0, 0, 0) 0 0 0 0.8em;
+    }
+}
+
 /* Sección PRODUCTOS */
 section.prendas img.prendas__img {
     object-fit: cover;
